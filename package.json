@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "validatetc": "./validate-cli.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,6 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "inquirer": "^8.2.6",
     "next": "^14.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
